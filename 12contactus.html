@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta name="description" content="Authentic Shoes" />
+  <meta name="author" content="Erni Rahmayanti" />
+
+  <title>CodingMum Project | TiBeKL</title>
+  <link rel="icon" type="image/png" href="assets/img/icon.jpeg" />
+
+  <!-- font awesome 4.7 -->
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/lib/font-awesome/css/font-awesome.min.css" />
+
+  <!-- <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
+    .left {
+            text-align: left;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .justify {
+            text-align: justify;
+        }
+
+        body {
+            margin-top: 40px;
+        }    
+  </style>
+
+  <head></head>
+
+<body class="w3-theme-l5">
+
+  <!-- Menu / Navbar -->
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color: rgba(250, 184, 127, 0.507)">
+    <div class="container">
+      <div class="navbar-header ">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <h4 style="font-family:fantasy"><a class="navbar-brand" href="index.html">TiBeKL<i class="fa fa-shopping-bag"
+              aria-hidden="true"></i></a></h4>
+      </div>
+      <form class="navbar-form navbar-right" action="/action_page.php">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search">
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="submit">
+              <i class="glyphicon glyphicon-search"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <h4>
+        <ul class="nav navbar-nav text-center">
+          <li class="active"><a href="index.html" i class="fa fa-home fa-2x" aria-hidden="true"></a></i></li>
+          <li>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Catalogue</b><b class="caret"></b></a>
+            <ul class="dropdown-menu multi-level" style="background-color: rgba(245, 206, 171, 0.767)">
+              <li><a href="2women.html" ; i class="fa fa-female fa" aria-hidden="true">WOMENS</a></i></li>
+              <li class="divider"></li>
+              <li><a href="3men.html" ; i class="fa fa-male" aria-hidden="true"> MENS </a></i></li>
+              <li class="divider"></li>
+              <li><a href="4kids.html" ; i class="fa fa-child" aria-hidden="true"> KIDS</a></i></li>
+              <li class="divider"></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Collections</b><b class="caret"></b></a>
+            <ul class="dropdown-menu" style="background-color: rgba(245, 206, 171, 0.753)">
+              <li><a href="5sale.html">SALE</a></li>
+              <li class="divider"></li>
+              <li><a href="6newarrival.html">New Arrival</a></li>
+              <li class="divider"></li>
+              <li><a href="7bestseller.html">Best Seller</a></li>
+              <li class="divider"></li>
+              <li><a href="8readystock.html">Ready Stock</a></li>
+              <li class="divider"></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Limited Edition</b><b class="caret"></b></a>
+            <ul class="dropdown-menu" style="background-color: rgba(245, 206, 171, 0.753)">
+              <li><a href="9ot.html">Onitsuka Tiger</a></li>
+              <li class="divider"></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>About Us</b><b class="caret"></b></a>
+            <ul class="dropdown-menu" style="background-color: rgba(245, 206, 171, 0.753)">
+              <li><a href="12contactus.html">Contact Us</a></li>
+              <li class="divider"></li>
+              <li><a href="13paymentmethode.html">Payment Methode</a></li>
+              <li class="divider"></li>
+              <li><a href="14termcon.html">Term & Conditions</a></li>
+            </ul>
+          </li>
+        </ul>
+      </h4>
+    </div>
+  </div>
+  <!--/.nav-collapse -->
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">My Profile</a>
+  </div>
+
+  <!-- Page Container -->
+  <div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">
+    <!-- The Grid -->
+    <div class="w3-row">
+      <!-- Left Column -->
+      <div class="w3-col m3">
+        <!-- Profile -->
+        <div class="w3-card w3-round w3-white">
+          <div class="w3-container">
+            <h4 class="w3-center">My Profile</h4>
+            <p class="w3-center"><img src="assets/img/icon.jpeg" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
+            <hr>
+            <p><i class="fa fa-shopping-bag fa-fw w3-margin-right w3-text-theme"></i> Personal Shopper</p>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i> Kuala Lumpur, Malaysia</p>
+            <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> July 2, ....</p>
+          </div>
+        </div>
+        <br>
+
+        <!-- Accordion -->
+        <div class="w3-card w3-round">
+          <div class="w3-white">
+            <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i>
+              My Groups</button>
+            <div id="Demo1" class="w3-hide w3-container">
+              <p>Onitsuka Tiger Family</p>
+            </div>
+            <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i>
+              My Events</button>
+            <div id="Demo2" class="w3-hide w3-container">
+              <p>Open PO 28 October'18</p>
+            </div>
+            <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i>
+              My Photos</button>
+            <div id="Demo3" class="w3-hide w3-container">
+              <div class="w3-row-padding">
+                <br>
+                <div class="w3-half">
+                  <img src="assets/img/limited/sun.gif" style="width:100%" class="w3-margin-bottom">
+                </div>
+                <div class="w3-half">
+                  <img src="assets/img/limited/sakura.gif" style="width:100%" class="w3-margin-bottom">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <!-- Interests -->
+        <div class="w3-card w3-round w3-white w3-hide-small">
+          <div class="w3-container">
+            <p>Interests</p>
+            <p>
+              <span class="w3-tag w3-small w3-theme-d5">Quotes</span>
+              <span class="w3-tag w3-small w3-theme-d4">Design</span>
+              <span class="w3-tag w3-small w3-theme-d3">Photos</span>
+              <span class="w3-tag w3-small w3-theme-d2">Art</span>
+              <span class="w3-tag w3-small w3-theme-d1">Food</span>
+              <span class="w3-tag w3-small w3-theme">Travel</span>
+              <span class="w3-tag w3-small w3-theme-l1">Friends</span>
+            </p>
+          </div>
+        </div>
+        <br>
+
+        <!-- Alert Box -->
+        <div class="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small">
+          <span onclick="this.parentElement.style.display='none'" class="w3-button w3-theme-l3 w3-display-topright">
+            <i class="fa fa-remove"></i>
+          </span>
+          <p><strong>Hello!</strong></p>
+          <p>Thank you for visiting this website <br> Greetings from TiBeKL</p>
+        </div>
+
+        <!-- End Left Column -->
+      </div>
+
+      <!-- Middle Column -->
+      <div class="w3-col m7">
+        <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+          <img src="assets/img/icon.jpeg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+          <span class="w3-right w3-opacity">1 min</span>
+          <h4>TiBeKL</h4><br>
+          <hr class="w3-clear">
+          <p>TiBeKL (Titip Beli Kuala Lumpur) <br> Authentic Brands, Personal Shopper</p>
+          <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-half">
+              <img src="assets/img/logo2.jpg" width="600" height="300" alt="Northern Lights" class="w3-margin-bottom">
+            </div>
+          </div>
+          <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button>
+          <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button>
+        </div>
+
+        <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+          <img src="assets/img/icon.jpeg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+          <span class="w3-right w3-opacity">16 min</span>
+          <h4>TiBeKL</h4><br>
+          <hr class="w3-clear">
+          <p>Thanks My lovely Customer 😍<br>
+            Authentic Onitsuka Tiger<br>
+            Dan maaf untuk yg gak ada size 🙏🏻🙏🏻🙏🏻<br>
+            Happy buyer & Happy seller 😃😃😃😃😃<br>
+            #TiBeKL #OnitsukaTiger #OnitsukaTigerAuthentic #TrustedSeller</p>
+          <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-half">
+              <img src="assets/img/about_us/thanks1.jpg" width="550" height="400" alt="Northern Lights" class="w3-margin-bottom">
+            </div>
+          </div>
+          <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-half">
+              <div class="col-md-9"><img src="assets/img/about_us/thanks2.jpg" width="250" height="180" alt="Northern Lights"
+                  class="w3-margin-bottom"></div>
+              <div class="col-md-3"><img src="assets/img/about_us/thanks3.jpeg" width="250" height="180" alt="Northern Lights"
+                  class="w3-margin-bottom"></div>
+            </div>
+          </div>
+          <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button>
+          <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button>
+        </div>
+
+        <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+          <img src="assets/img/icon.jpeg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+          <span class="w3-right w3-opacity">32 min</span>
+          <h4>TiBeKL</h4><br>
+          <hr class="w3-clear">
+          <p>Directly from official outlets! and guaranteed Authentic!</p>
+          <img src="assets/img/about_us/store.jpg" style="width:60%" class="w3-margin-bottom">
+          <p>
+            <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button>
+            <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button>
+        </div>
+
+        <!-- End Middle Column -->
+      </div>
+
+      <!-- Right Column -->
+      <div class="w3-col m2">
+        <div class="w3-card w3-round w3-white w3-center">
+          <div class="w3-container">
+            <p>Upcoming Events:</p>
+            <img src="assets/img/about_us/cm.jpg" alt="Forest" style="width:100%;">
+            <p><strong>Presentation Coding Mum KL Batch II</strong></p>
+            <p>Sunday, 28 October 2018 11:00am</p>
+          </div>
+        </div>
+        <br>
+
+        <div class="w3-card w3-round w3-white w3-padding-16 w3-center">
+          <p>ADS</p>
+        </div>
+        <br>
+
+        <div class="w3-card w3-round w3-white w3-padding-32 w3-center">
+          <p><i class="fa fa-bug w3-xxlarge"></i></p>
+        </div>
+
+        <!-- End Right Column -->
+      </div>
+
+      <!-- End Grid -->
+    </div>
+
+    <!-- End Page Container -->
+  </div>
+  <br>
+
+  <!--Form Contact us-->
+  <form action="/action_page.php" onsubmit="myFunction()" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
+    <h2 class="w3-center">Contact Us</h2>
+
+    <div class="w3-row w3-section">
+      <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+      <div class="w3-rest">
+        <input class="w3-input w3-border" name="first" type="text" placeholder="First Name">
+      </div>
+    </div>
+
+    <div class="w3-row w3-section">
+      <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+      <div class="w3-rest">
+        <input class="w3-input w3-border" name="last" type="text" placeholder="Last Name">
+      </div>
+    </div>
+
+    <div class="w3-row w3-section">
+      <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+      <div class="w3-rest">
+        <input class="w3-input w3-border" name="email" type="text" placeholder="Email">
+      </div>
+    </div>
+
+    <div class="w3-row w3-section">
+      <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
+      <div class="w3-rest">
+        <input class="w3-input w3-border" name="phone" type="text" placeholder="Phone">
+      </div>
+    </div>
+
+    <div class="w3-row w3-section">
+      <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-pencil"></i></div>
+      <div class="w3-rest">
+        <input class="w3-input w3-border" name="message" type="text" placeholder="Message">
+      </div>
+    </div>
+
+    <p class="w3-center">
+      <a href="https://api.whatsapp.com/send?phone=601112248588&text=Hello saya mau order \n nama : 
+        target="
+        _blank" class="w3-button w3-section w3-blue w3-ripple"> Send </button></a>
+    </p>
+  </form>
+  <!--End of Form Contact us-->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container-fluid text-center" style="background-color: rgba(170, 124, 84, 0.404)"><br>
+      <div class="row">
+        <div class="col-md-4">
+          <ul><i><b>SUPPORT</b></i>
+            <br><a href="15chartsize.html">Chart Size</a>
+            <br><a href="https://cektarif.com/" target="_blank">Shipping Fee</a>
+            <br><a href="https://cekresi.com/" target="_blank">Track My Order</a>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <p>
+              <h4><a href="16testimonials.html" i class="fa fa-comments fa-1x" aria-hidden="true">
+                  <b>TESTIMONIALS </h4></b></a>
+            </p>
+
+            Established in Kuala Lumpur, Malaysia, 2018
+            <p><a href="https://www.instagram.com/erny0207/" target="_blank">© 2018 TiBeKL by @erny0207</a></p>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <p>
+              <i><b>STAY CONNECTED</b></i>
+              <a href="https://www.facebook.com/dhia.adella" ; class="fa fa-facebook-square fa-2x" aria-hidden="true"
+                target="_blank"></i></a>
+              <a href="https://www.instagram.com/erny0207/" ; i class="fa fa-instagram fa-2x" aria-hidden="true" target="_blank"></i></a>
+              <a href="https://api.whatsapp.com/send?phone=601112248588" ; i class="fa fa-whatsapp fa-2x" aria-hidden="true"
+                target="_blank"></i></a>
+            </p>
+            <p><a href="https://mail.google.com/mail/erny0207@gmail.com" ; i class="fa fa-envelope fa" aria-hidden="true"
+                target="_blank"> email : erny0207@gmail.com</i></a></p>
+            <p><i class="fa fa-mobile fa-1x" aria-hidden="true"> phone : +601112248588</i></a></p>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--Script-->
+  <script src="assets/lib/bootstrap/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+
+  <script>
+    // Form
+
+    // Accordion
+    function myFunction(id) {
+      var x = document.getElementById(id);
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        x.previousElementSibling.className += " w3-theme-d1";
+      } else {
+        x.className = x.className.replace("w3-show", "");
+        x.previousElementSibling.className =
+          x.previousElementSibling.className.replace(" w3-theme-d1", "");
+      }
+    }
+
+    // Used to toggle the menu on smaller screens when clicking on the menu button
+    function openNav() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+  </script>
+
+
+
+</body>
+
+</html>

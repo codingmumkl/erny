@@ -1,0 +1,28 @@
+.nav.navmenu li.submenu .openmenu {
+    cursor: pointer;
+    color:  rgb(48, 11, 11);
+    padding: 10px 15px;
+  }
+  
+  nav.navmenu li.submenu ul.dropdown {
+    display: none;
+    padding: 0px;
+    position: absolute;
+    top: 1.6em;
+    width: 200px;
+  }
+  
+  nav.navmenu input[type="checkbox"] {
+    display: none
+  }
+  
+  nav.navmenu li.submenu #openmenu:checked ~ ul.dropdown {
+    display: block;
+    z-index:9
+  }
+  
+  nav.navmenu li.submenu ul.dropdown li {
+    display: block;
+  }
+
+  

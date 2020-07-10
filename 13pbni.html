@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Coding Mum Project | TiBeKL</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Authentic Shoes" />
+    <meta name="author" content="Erni Rahmayanti" />
+    <link rel="icon" type="image/png" href="assets/img/icon.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/external.css">
+    <style type="text/css">
+        .left {
+            text-align: left;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .justify {
+            text-align: justify;
+        }
+    </style>
+    <style>
+        body {
+            font-family: "Roboto", sans-serif
+        }
+
+        .w3-bar-block .w3-bar-item {
+            padding: 16px;
+            font-weight: bold
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:250px;" id="mySidebar"
+        style="background-color: rgba(245, 206, 171, 0.753)">
+        <h2><a class="w3-bar-item w3-button w3-teal" href="index.html">TiBeKL <i class="fa fa-shopping-bag" aria-hidden="true"></i></a></h2>
+        <a class="w3-bar-item w3-button" href="13pbri.html">Bank BRI</a>
+        <a class="w3-bar-item w3-button" href="13pbni.html">Bank BNI</a>
+        <a class="w3-bar-item w3-button" href="13pbca.html">Bank BCA</a>
+        <a class="w3-bar-item w3-button" href="13pmandiri.html">Bank Mandiri</a>
+        <a class="w3-bar-item w3-button" href="13pcimb.html">CIMB Niaga</a>
+        <a class="w3-bar-item w3-button" href="13pmuamalat.html">Bank Muamalat</a>
+        <a class="w3-bar-item w3-button" href="13patm.html">ATM Bersama/Prima</a>
+        <a class="w3-bar-item w3-button" href="13pkk.html">Kartu Kredit</a>
+        <div>
+            <a class="w3-bar-item w3-button" onclick="myAccordion('demo')" href="javascript:void(0)">Konfirmasi<i class="fa fa-caret-down"></i></a>
+            <div id="demo" class="w3-hide">
+                <a class="w3-bar-item w3-button" href="#">Bukti Pembayaran</a>
+                <a class="w3-bar-item w3-button" href="#">Alamat Penerima</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+    <div class="w3-main" style="margin-left:250px;">
+
+        <div id="myTop" class="w3-container w3-top w3-theme w3-large">
+            <p><i class="fa fa-bars w3-button w3-teal w3-hide-large w3-xlarge" onclick="w3_open()"></i>
+                <span id="myIntro" class="w3-hide">Metode Pembayaran</span></p>
+        </div>
+
+        <header class="w3-container w3-theme">
+            <h1 class="w3-xxxlarge">Metode Pembayaran</h1>
+        </header>
+
+        <div class="w3-container" style="padding:32px">
+
+            <p><img src="assets/img/about_us/2bni.png" width="190" height="70"></p>
+
+            <strong class="howto-textlead">Cara membayar dengan <span class="bankhead">Bank BNI</span> : </strong>
+            <ul>
+                <li><strong>ATM</strong>
+                    <ul>
+                        <li>Pilih Transfer</li>
+                        <li>Pilih ke Rekening BNI</li>
+                        <li>Masukkan nomor Akun Virtual yang kami berikan</li>
+                        <li>Masukkan jumlah yang harus dibayar</li>
+                        <li>Validasi informasi yang muncul</li>
+                        <li>Pilih Ya untuk memproses pembayaran</li>
+                    </ul>
+                    <div class="alternative-note">Alternatif : Anda juga dapat membayar lewat ATM manapun yang memiliki
+                        logo ATM BERSAMA atau PRIMA atau ALTO (jika kartu Anda memiliki logo tersebut) (Kode Bank BNI
+                        009)</div>
+                </li><br>
+                <li><strong>Internet Banking</strong>
+                    <ul>
+                        <li>Login ke Internet Banking (siapkan token Anda)</li>
+                        <li>Pilih Transaksi</li>
+                        <li>Pilih Info dan Administrasi</li>
+                        <li>Pilih Atur Rekening Tujuan</li>
+                        <li>Pilih Tambah Rekening Tujuan dan selanjutnya pilih OK</li>
+                        <li>Masukkan nomor Akun Virtual yang kami berikan</li>
+                        <li>Lengkapi semua data yang dibutuhkan dan selanjutnya klik Lanjutkan</li>
+                        <li>Masukkan Kode Otentikasi Token dan selanjutnya pilih Proses</li>
+                        <li>Rekening tujuan berhasil ditambahkan</li>
+                        <li>Pilih menu Transfer dan selanjutnya pilih Transfer Antar Rek BNI</li>
+                        <li>Pilih Rekening Tujuan : TiBeKL</li>
+                        <li>Masukkan jumlah pembayaran sesuai tagihan dan selanjutnnya masukkan Kode Otentikasi Token</li>
+                    </ul>
+                </li><br>
+                <li><strong>Mobile Banking</strong>
+                    <ul>
+                        <li>Login ke Mobile Banking</li>
+                        <li>Pilih Transfer</li>
+                        <li>Pilih Antar Rekening BNI</li>
+                        <li>Pilih Rekening Tujuan</li>
+                        <li>Pilih Input Rekening Baru</li>
+                        <li>Masukkan nomor Akun Virtual yang kami berikan kemudian klik Lanjut</li>
+                        <li>Masukkan jumlah pembayaran sesuai tagihan dan klik Lanjut</li>
+                        <li>Masukkan Password Transaksi Anda and dan selanjutnya klik Lanjut</li>
+                    </ul>
+                </li><br>
+                <li><strong>BNI SMS Banking</strong>
+                    <ul>
+                        <li>Login ke SMS Banking BNI</li>
+                        <li>Pilih Transfer</li>
+                        <li>Pilih Trf Rekening BNI</li>
+                        <li>Masukkan nomor Akun Virtual yang kami berikan</li>
+                        <li>Masukkan jumlah pembayaran sesuai tagihan dan klik Proses</li>
+                        <li>Di Pesan PopUp pilih Setuju</li>
+                        <li>Masukkan PIN ATAU</li>
+                        <li>Melalui SMS ke 3346 dengan format : TRF[SPASI]Nomor BNI Virtual Account[SPASI]NOMINAL</li>
+                    </ul>
+                </li><br>
+                <li><strong>Tunai</strong>
+                    <ul>
+                        <li>Pembayaran Tunai bisa dilakukan di cabang BNI (dengan batas waktu sama dengan yang tertera
+                            di halaman konfirmasi booking)</li>
+                    </ul>
+                </li><br>
+            </ul>
+
+
+            <footer class="w3-container w3-theme text-center" style="text-align: center" style="padding:32px">
+                <ul>
+                    <p>
+                        <i><b>STAY CONNECTED</b></i>
+                        <a href="https://www.facebook.com/dhia.adella" ; class="fa fa-facebook-square fa-2x"
+                            aria-hidden="true" target="_blank"></i></a>
+                        <a href="https://www.instagram.com/erny0207/" ; i class="fa fa-instagram fa-2x" aria-hidden="true"
+                            target="_blank"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=601112248588" ; i class="fa fa-whatsapp fa-2x"
+                            aria-hidden="true" target="_blank"></i></a>
+                    </p>
+                    <p><a href="https://mail.google.com/mail/erny0207@gmail.com" ; i class="fa fa-envelope fa"
+                            aria-hidden="true" target="_blank"> email : erny0207@gmail.com</i></a></p>
+                    <p><a href="https://601112248588" ; i class="fa fa-mobile fa-1x" aria-hidden="true">
+                            phone
+                            :
+                            +601112248588</i></a></p>
+                    <p>Established in Kuala Lumpur, Malaysia, 2018</p>
+                    <p><a href="https://www.instagram.com/erny0207/" target="_blank">© 2018 TiBeKL by @erny0207</a></p>
+                </ul>
+
+
+        </div>
+    </div>
+    </footer>
+
+    </div>
+
+    <script>
+        // Open and close the sidebar on medium and small screens
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+        }
+
+        // Change style of top container on scroll
+        window.onscroll = function () { myFunction() };
+        function myFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("myTop").classList.add("w3-card-4", "w3-animate-opacity");
+                document.getElementById("myIntro").classList.add("w3-show-inline-block");
+            } else {
+                document.getElementById("myIntro").classList.remove("w3-show-inline-block");
+                document.getElementById("myTop").classList.remove("w3-card-4", "w3-animate-opacity");
+            }
+        }
+
+        // Accordions
+        function myAccordion(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+                x.previousElementSibling.className += " w3-theme";
+            } else {
+                x.className = x.className.replace("w3-show", "");
+                x.previousElementSibling.className =
+                    x.previousElementSibling.className.replace(" w3-theme", "");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
